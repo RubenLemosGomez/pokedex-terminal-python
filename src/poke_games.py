@@ -128,10 +128,10 @@ class PokeGames:
             return
 
         # Extraigo nombres y pesos
-        name1 = pokemon1["name"].capitalize()
-        weight1 = pokemon1["weight"]
-        name2 = pokemon2["name"].capitalize()
-        weight2 = pokemon2["weight"]
+        name1 = pokemon1.get("name").capitalize()
+        weight1 = pokemon1.get("weight")
+        name2 = pokemon2.get("name").capitalize()
+        weight2 = pokemon2.get("weight")
 
         # Muestro las opciones al usuario
         print("\n" + "=" * 70)
@@ -198,10 +198,10 @@ class PokeGames:
             return
 
         # Extraigo nombres y alturas
-        name1 = pokemon1["name"].capitalize()
-        height1 = pokemon1["height"]
-        name2 = pokemon2["name"].capitalize()
-        height2 = pokemon2["height"]
+        name1 = pokemon1.get("name").capitalize()
+        height1 = pokemon1.get("height")
+        name2 = pokemon2.get("name").capitalize()
+        height2 = pokemon2.get("height")
 
         # Muestro las opciones
         print("\n" + "=" * 70)
